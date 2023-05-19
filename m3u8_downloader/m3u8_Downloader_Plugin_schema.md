@@ -1,6 +1,6 @@
 # m3u8 Downloader Plugin schema
 
-Note: you don't nned to create any `Activity` for a plugin. Normally, a `Service` is enough.
+Note: you don't need to create any `Activity` for a plugin. Normally, a `Service` is enough.
 
 ## 1. Import `.aidl` files
 Create a new project. In folder `[packageName]\src\main` , create new folder path `\aidl\com\leavjenn\m3u8downloader`. Then, add the following 2 `.aidl` files in this folder.
@@ -75,4 +75,4 @@ IExtractorCallback.onSuccess(arrayListOf(
 	))
 ```
 
-Contect me to add this plugin in the community list: `leavjenn+m3u8downloader@gmail.com`.
+Contact me to add this plugin in the community list: `leavjenn+m3u8downloader@gmail.com`.
