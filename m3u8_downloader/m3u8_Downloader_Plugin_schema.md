@@ -1,6 +1,6 @@
 # m3u8 Downloader Plugin schema
 
-Note: you don't nned to create any `Activity` for a plugin. Normally, a `Service` is enough.
+Note: You don't need to create an `Activity` for a plugin. Normally, a `Service` is enough.
 
 ## 1. Import `.aidl` files
 Create a new project. In folder `[packageName]\src\main` , create new folder path `\aidl\com\leavjenn\m3u8downloader`. Then, add the following 2 `.aidl` files in this folder.
